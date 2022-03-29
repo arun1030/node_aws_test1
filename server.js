@@ -6,7 +6,7 @@ const app = express();
 app.use('/', test)
 
 
-const port = process.env.port || 3000 ;
+const port = process.env.port || 5000 ;
 app.listen(port, ()=>{
     console.log('worked');
 })
